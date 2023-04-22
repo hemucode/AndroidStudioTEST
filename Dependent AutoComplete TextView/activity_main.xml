@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <AutoCompleteTextView
+        android:id="@+id/autoComplete_TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:hint="All Content"
+        android:minHeight="48dp"
+        android:textAlignment="center">
+
+    </AutoCompleteTextView>
+
+    <ImageView
+        android:layout_width="40dp"
+        android:src="@drawable/ic_baseline_arrow_drop_down_24"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="300dp"
+        android:id="@+id/image_drop"
+        android:layout_height="40dp">
+    </ImageView>
+
+    <AutoCompleteTextView
+        android:id="@+id/autoComplete_TextView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="220dp"
+        android:hint="All Content"
+        android:textAlignment="center"
+        tools:ignore="TouchTargetSizeCheck">
+
+    </AutoCompleteTextView>
+
+    <ImageView
+        android:layout_width="40dp"
+        android:src="@drawable/ic_baseline_arrow_drop_down_24"
+        android:layout_marginTop="220dp"
+        android:layout_marginLeft="300dp"
+        android:id="@+id/image_drop2"
+        android:layout_height="40dp">
+    </ImageView>
+
+
+</RelativeLayout>
